@@ -24,7 +24,7 @@ const HomePage: React.FC = () => {
 
 
        <button
-  className="mt-10 px-6 py-2 sm:px-8 sm:py-3 bg-black text-white text-base sm:text-lg font-semibold 
+  className="mt-10 px-6 py-2 sm:px-8 sm:py-3 bg-black text-zinc-200 text-base sm:text-lg font-semibold 
              border border-white shadow-[0_0_10px_white] transition-colors 
              hover:bg-gray-800 hover:shadow-[0_0_15px_white]"
   onClick={() => router.push("/detect")}
